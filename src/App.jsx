@@ -1,0 +1,26 @@
+import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import NavButton from './components/NavButton';
+import Home from './pages/Home';
+import LanguageSelector from './pages/LanguageSelector';
+
+function App() {
+  return (
+    <>
+    <BrowserRouter>
+    <div>
+      {/* <nav>
+        <Link to="\">Home</Link> | <Link>Select a Language</Link> | <Link>Words</Link>
+      </nav> */}
+      <Routes>
+        <Route path="/" element={< Home />}/>
+        <Route path='/LanguageSelector' element={<LanguageSelector/>}/>
+      </Routes>
+    </div>
+    </BrowserRouter>
+    </>
+  );
+}
+
+export default App;

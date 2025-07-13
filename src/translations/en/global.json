@@ -1,0 +1,14 @@
+{
+    "languages": {
+            "es": "Spanish",
+            "fr": "French",
+            "en": "English"
+        },
+    "Home": {
+        "title": "One Word A Day",
+        "button": "START"
+    },
+    "LanguageSelector": {
+        "header": "Select a language"
+    }
+}

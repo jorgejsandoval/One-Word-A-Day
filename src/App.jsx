@@ -4,10 +4,18 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import NavButton from './components/NavButton';
 import Home from './pages/Home';
 import LanguageSelector from './pages/LanguageSelector';
+import LanguageSwitcher from './components/LanguageSwitcher';
+
 
 function App() {
+
+  
+
   return (
     <>
+    <nav>
+    <LanguageSwitcher/>
+    </nav>
     <BrowserRouter>
     <div>
       {/* <nav>

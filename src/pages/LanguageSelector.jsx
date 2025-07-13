@@ -1,8 +1,11 @@
 import React from "react";
 import NavButton from "../components/NavButton";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 function LanguageSelector() {
+
+    const { t } = useTranslation("global");
 
     const [Languages, setLanguages] = useState([]);
 
@@ -12,7 +15,7 @@ function LanguageSelector() {
 
     return (
         <div>
-            <h1>Select a Language</h1>
+            <h1>{t("LanguageSelector.header")}</h1>
             <ul>
                 {Languages.map((lang, index) => {
                     return (

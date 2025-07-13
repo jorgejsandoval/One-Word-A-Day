@@ -1,0 +1,14 @@
+{
+    "languages": {
+            "es": "Espanol",
+            "fr": "Frances",
+            "en": "Ingles"
+        },
+    "Home": {
+        "title": "Una Palabra Al Dia",
+        "button": "INICIAR"
+    },
+    "LanguageSelector": {
+        "header": "Selecciona un idioma"
+    }
+}

@@ -14,7 +14,7 @@ function Home() {
 
             
 
-            <NavButton to='/LanguageSelector'>{t("Home.button")}</NavButton>
+            <NavButton to='/LanguageSelector'>{t("Home.startButton")}</NavButton>
         </div>
     );
 }

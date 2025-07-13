@@ -13,9 +13,7 @@ function App() {
 
   return (
     <>
-    <nav>
-    <LanguageSwitcher/>
-    </nav>
+      <LanguageSwitcher/>
     <BrowserRouter>
     <div>
       {/* <nav>

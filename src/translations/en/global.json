@@ -6,9 +6,24 @@
         },
     "Home": {
         "title": "One Word A Day",
-        "button": "START"
+        "startButton": "START"
     },
     "LanguageSelector": {
-        "header": "Select a language"
-    }
+        "header": "Select a language",
+        "languages": [
+            {
+            "name": "Spanish",
+            "flag": "/Flags/Spain_Flag.svg"
+            },
+            {
+            "name": "French",
+            "flag": "/Flags/France_Flag.svg"
+            },
+            {
+            "name": "English",
+            "flag": "/Flags/United_States_Flag.svg"
+            }
+        ] 
+    },
+    "backButton": "Back"
 }

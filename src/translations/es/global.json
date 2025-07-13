@@ -6,9 +6,24 @@
         },
     "Home": {
         "title": "Una Palabra Al Dia",
-        "button": "INICIAR"
+        "startButton": "INICIAR"
     },
     "LanguageSelector": {
-        "header": "Selecciona un idioma"
-    }
+        "header": "Selecciona un idioma",
+        "languages": [
+            {
+            "name": "Espanol",
+            "flag": "/Flags/Spain_Flag.svg"
+            },
+            {
+            "name": "Frances",
+            "flag": "/Flags/France_Flag.svg"
+            },
+            {
+            "name": "Ingles",
+            "flag": "/Flags/United_States_Flag.svg"
+            }
+        ] 
+    },
+    "backButton": "Atras"
 }

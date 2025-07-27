@@ -1,0 +1,20 @@
+/* eslint-disable */
+export default {
+  key: "home",
+  content: {
+    title: {
+      nodeType: "translation",
+      translation: {
+        en: "One Word A Day",
+        es: "Una Palabra Al Dia"
+      }
+    },
+    startButton: {
+      nodeType: "translation",
+      translation: {
+        en: "START",
+        es: "INICIAR"
+      }
+    }
+  }
+} as const;

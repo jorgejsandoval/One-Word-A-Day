@@ -1,0 +1,18 @@
+{
+  "key": "languageSelector",
+  "content": {
+    "header": "Select a language",
+    "backButton": "Back",
+    "languages": [
+      "Spanish",
+      "French",
+      "English"
+    ],
+    "flags": [
+      "/Flags/Spain_Flag.svg",
+      "/Flags/France_Flag.svg",
+      "/Flags/United_States_Flag.svg"
+    ]
+  },
+  "locale": "fr"
+}

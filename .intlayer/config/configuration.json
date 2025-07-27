@@ -1,0 +1,100 @@
+{
+  "internationalization": {
+    "locales": [
+      "en",
+      "es",
+      "fr"
+    ],
+    "requiredLocales": [],
+    "strictMode": "inclusive",
+    "defaultLocale": "en"
+  },
+  "middleware": {
+    "headerName": "x-intlayer-locale",
+    "cookieName": "INTLAYER_LOCALE",
+    "prefixDefault": false,
+    "basePath": "",
+    "serverSetCookie": "always",
+    "noPrefix": false
+  },
+  "content": {
+    "fileExtensions": [
+      ".content.ts",
+      ".content.js",
+      ".content.cjs",
+      ".content.cjx",
+      ".content.mjs",
+      ".content.mjx",
+      ".content.json",
+      ".content.tsx",
+      ".content.jsx"
+    ],
+    "baseDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day",
+    "excludedPath": [
+      "node_modules",
+      ".intlayer"
+    ],
+    "watch": true,
+    "contentDir": [
+      "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day"
+    ],
+    "dictionariesDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\dictionary",
+    "moduleAugmentationDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\types",
+    "dictionaryOutput": [
+      "intlayer"
+    ],
+    "unmergedDictionariesDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\unmerged_dictionary",
+    "dynamicDictionariesDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\dynamic_dictionary",
+    "i18nextResourcesDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\i18next_resources",
+    "reactIntlMessagesDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\intl_messages",
+    "typesDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\types",
+    "mainDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\main",
+    "configDir": "C:\\Users\\jhoan\\Documents\\Practicas\\React\\one-word-a-day\\.intlayer\\config",
+    "watchedFilesPattern": [
+      "/**/*.content.ts",
+      "/**/*.content.js",
+      "/**/*.content.cjs",
+      "/**/*.content.cjx",
+      "/**/*.content.mjs",
+      "/**/*.content.mjx",
+      "/**/*.content.json",
+      "/**/*.content.tsx",
+      "/**/*.content.jsx"
+    ],
+    "watchedFilesPatternWithPath": [
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.ts",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.js",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.cjs",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.cjx",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.mjs",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.mjx",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.json",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.tsx",
+      "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/**/*.content.jsx"
+    ],
+    "outputFilesPatternWithPath": "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/.intlayer/dictionary/**/*.json"
+  },
+  "editor": {
+    "applicationURL": "",
+    "editorURL": "http://localhost:8000",
+    "cmsURL": "https://intlayer.org",
+    "backendURL": "https://back.intlayer.org",
+    "port": 8000,
+    "enabled": true,
+    "dictionaryPriorityStrategy": "local_first",
+    "hotReload": false
+  },
+  "log": {
+    "mode": "default",
+    "prefix": "\u001b[90m[intlayer] \u001b[0m"
+  },
+  "ai": {},
+  "build": {
+    "optimize": false,
+    "activateDynamicImport": false,
+    "traversePattern": [
+      "**/*.{js,ts,mjs,cjs,jsx,tsx,mjx,cjx,vue,svelte,svte}",
+      "!**/node_modules/**"
+    ]
+  }
+}

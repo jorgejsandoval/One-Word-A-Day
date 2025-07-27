@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import NavButton from './components/NavButton';
-import Home from './pages/Home';
-import LanguageSelector from './pages/LanguageSelector';
-import LanguageSwitcher from './components/LanguageSwitcher';
+import NavButton from './components/NavButton.jsx';
+import Home from './pages/Home.jsx';
+import LanguageSelector from './pages/LanguageSelector.jsx';
+import LanguageSwitcher from './components/LanguageSwitcher.jsx';
 
 
 function App() {

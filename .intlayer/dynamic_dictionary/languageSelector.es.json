@@ -1,0 +1,18 @@
+{
+  "key": "languageSelector",
+  "content": {
+    "header": "Selecciona un idioma",
+    "backButton": "Atras",
+    "languages": [
+      "Espanol",
+      "Frances",
+      "Ingles"
+    ],
+    "flags": [
+      "/Flags/Spain_Flag.svg",
+      "/Flags/France_Flag.svg",
+      "/Flags/United_States_Flag.svg"
+    ]
+  },
+  "locale": "es"
+}

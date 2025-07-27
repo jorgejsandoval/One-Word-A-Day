@@ -1,0 +1,22 @@
+[
+  {
+    "key": "home",
+    "content": {
+      "title": {
+        "nodeType": "translation",
+        "translation": {
+          "en": "One Word A Day",
+          "es": "Una Palabra Al Dia"
+        }
+      },
+      "startButton": {
+        "nodeType": "translation",
+        "translation": {
+          "en": "START",
+          "es": "INICIAR"
+        }
+      }
+    },
+    "filePath": "C:/Users/jhoan/Documents/Practicas/React/one-word-a-day/src/pages/home.content.tsx"
+  }
+]
